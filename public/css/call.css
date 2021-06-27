@@ -1,0 +1,201 @@
+
+
+/* Magna */
+
+.magna {
+	width: 100%;
+	height: 350px;
+	border-right: 2px solid #DDD;
+	padding-top: 50px;
+}
+
+.magna .learn {
+	 width: 50%;
+      float: left;
+	  border-right: 2px solid #DDD;
+}
+.magna .learn h2 {
+	text-decoration: underline;
+	font-family: Tahoma;
+	color: #777;
+	padding-left:20px;
+}
+.magna .learn p {
+	line-height: 1.5;
+	font-family: Tahoma;
+	color: #888;
+	padding-left:20px;
+}
+.magna .learn button {
+	border: 0;
+	background: #fff;
+	border:  1px solid #DDD;
+	padding: 15px;
+	border-radius: 30px;
+	width: 200px;
+	color: #888;
+	cursor: pointer;
+	text-transform: uppercase;
+	
+}
+
+.ipsim {
+	float: left;
+	width: 40%;
+	margin-left: 5%;
+	visibility: hidden;
+}
+.ipsim p {
+	line-height: 2;
+	font-family: tahoma;
+	font-weight: bold;
+	color: #666;
+	
+}
+.ipsim i {
+	padding-right: 10px;
+	color: #00BC8A;
+}
+
+
+/* pharetra */
+
+.pharetra {
+	width: 100%;
+	height: auto;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	overflow: hidden;
+	background-color: #f2f2f2;
+}
+.pharetra .part {
+	padding-bottom: 50px;
+	height: 350px;
+	
+}
+.pharetra .part img {
+	float: left;
+	width: 40%;
+	margin-left: 100px;
+}
+
+.pharetra .part .he {
+	width: 40%;
+	float: right;
+	padding-left: 70px;
+	padding-top: 10px;
+}
+.pharetra .part .he h2 {
+	color: #777;
+	font-family: tahoma;
+	text-decoration: underline;
+}
+.pharetra .part .he p {
+	color: #888;
+	font-family: tahoma;
+	line-height:2;
+	font-weight: bold;
+	
+	height: 200px;
+}
+.pharetra .part .he button {
+	background-color: none;
+	border: 1px solid #DDD;
+	width: 150px;
+	border-radius: 20px;
+	padding: 10px;
+	font-size: 20px;
+	color:#777;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+.pharetra .part .he button:hover {
+	background-color: #888;
+	color: #fff;
+}
+
+.clear { clear: both;}
+
+
+/* form */
+
+.form {
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	padding-left: 50px;
+	padding-top: 50px;
+
+}
+.form .inputs {
+	width: 50%;
+	float: left;
+	border-right: 2px solid #DDD;
+}
+
+.form .inputs h2 {
+	font-family: tahoma;
+	
+}
+.form .inputs p {
+	line-height: 2;
+	font-family: tahoma;
+	font-weight: bold;
+	color: #888;
+}
+.form .inputs input[type=text] , input[type=email] {
+	width: 250px;
+	height: 50px;
+	padding-left: 20px;
+	margin-bottom: 10px;
+	font-size: 20px;
+}
+
+
+
+.form .inputs textarea {
+	width: 505px;
+	outline: 0;
+	padding-left:20px;
+	font-size: 15px;
+}
+
+.form .inputs input[type=submit] {
+	width: 150px;
+	border-radius: 20px;
+	border: 1px solid #DDD;
+	padding: 15px;
+	margin-top: 15px;
+	cursor: pointer;
+}
+
+.form .links {
+	float: left;
+	padding-top: 50px;
+	padding-left: 50px;
+}
+
+.form .links p {
+	line-height:2.5;
+}
+
+.form .links p i {
+	padding-right: 25px;
+	color:#00BC8A;
+}
+
+
+/* footer */
+
+.footer {
+	width: 100%;
+	height: 150px;
+	border-top: 1px solid #DDD;
+}
+
+.footer p {
+	text-align: center;
+	line-height: 150px;
+	font-family: tahoma;
+	color: #777;
+}
